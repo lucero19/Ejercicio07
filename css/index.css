@@ -1,0 +1,258 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: "mifuente";
+	src:url(../fonts/Arbutus-Regular.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+	color: #000;
+	font-family: "mifuente";
+	font-size: 16px;
+}
+/* componentes Reutilizables */
+.row {
+	max-width: 1140px;
+	margin: 0  auto;
+}
+section {
+	padding:8px 0;
+}
+@font-face {
+	font-family: "sociales";
+	src: url(../fonts/WebSymbols-Regular.otf);
+	font-weight: normal;
+	font-style: normal;
+}
+h1,h2,h3 {
+	color: #06960B;
+}
+h1 {
+	font-size: 2.5em;
+	margin-bottom:20px;
+	text-shadow: 1px 1px 1px black
+}
+h2 {
+	font-size: 1.6em;
+	margin: 15px 0;
+}
+a{
+	text-decoration: none;
+}
+/*header*/
+header {
+	margin-bottom: 25px;
+	overflow: hidden;
+}
+header nav ul {
+	list-style:none;
+}
+header nav ul li {
+	width: 25%;
+	float: left;
+	text-align:center;
+}
+
+header nav ul li a {
+	display: block;
+	padding:8px 0;
+	color: white;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#efffff+0,299a0b+50,299a0b+100 */
+background: #efffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #efffff 0%, #299a0b 50%, #299a0b 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #efffff 0%,#299a0b 50%,#299a0b 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #efffff 0%,#299a0b 50%,#299a0b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efffff', endColorstr='#299a0b',GradientType=0 ); /* IE6-9 */
+}
+header nav ul li a:hover {
+	color: #06960B;
+	text-decoration: underline;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#efffff+0,ffffff+69,299a0b+100 */
+background: #efffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #efffff 0%, #ffffff 69%, #299a0b 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #efffff 0%,#ffffff 69%,#299a0b 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #efffff 0%,#ffffff 69%,#299a0b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efffff', endColorstr='#299a0b',GradientType=0 ); /* IE6-9 */
+}
+
+/*blog post */
+#blog-post {
+	width:75%;
+	float:left;
+	margin-bottom: 25px;
+	padding-right:30px;
+	position: relative;
+}
+#blog-post p {
+	text-align:justify;
+	margin-bottom:20px;
+}
+#blog-post time {
+	position: relative;
+	top:10px;
+	right:-80%;
+}
+#blog-post a {
+	text-align: center;
+	color: #06960B;
+	border: 1px solid #808080;
+	padding: 10px;
+	width: 200px;
+	display: block;
+	border-radius: 20px;
+}           
+#blog-post a:hover {
+	color: #fff;
+	background-color: #06960B;
+}
+.otros-post {
+	width:20%;
+	float:left;
+}
+.otros {
+	margin-bottom:40px;
+}
+.otros h3 {
+	text-align: center;
+	font-variant: small-caps;
+	margin:15px 0;
+}
+.otros p {
+	text-align:center;
+}
+/*footer */
+footer {
+	padding-top: 20px;
+	border-top: 1px solid #808080;
+	clear: both;
+}
+.autor img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 1px solid #E9E9E9;
+	float: right;
+	margin-right: 15px;
+	
+}
+.datos-autor {
+	font-size: 1.4em;
+	margin-top: 35px;
+	margin-right: 15px;
+	float: right;
+}
+.sociales {
+	font-family: "sociales";
+	font-size: 1.9em;
+	margin-right: 10px;
+	border-radius: 50%;
+	padding: 20px;
+	cursor: pointer;
+}
+.sociales:nth-child(1) {
+	color: #3A5795;
+}
+.sociales:nth-child(2) {
+	color: #5AC1C7;
+}
+.sociales:nth-child(1):hover {
+	color: #fff;
+	background-color: #3A5795;
+}
+.sociales:nth-child(2):hover {
+	color: #fff;
+	background-color: #5ac1c7;
+}
+/*blog-post */
+.blog-post { 
+width: 30%; 
+float:left;
+padding-left: 20px;
+}
+
+<!--tabla-->
+#blog-post1 {
+ width: 60%;
+ float: right;
+ margin-bottom: 25px;
+ padding-right: 20px;
+ position: relative;
+ padding-top: 80px;
+           }
+
+
+
+#teb div {
+	    display: inline-block;
+	    margin-right: 15px;
+	    padding-top: 15px;
+         }
+
+#tabla1 {
+	 border: outset;
+	 text-align: center;
+        }
+        
+#tabla1 th {
+	color: #06960B;
+           }
+
+#tabla2 {
+	border: outset ;
+	 text-align: center;
+        }
+
+#tabla2 th {
+	color: #06960B;
+           }
+
+.otros-post1 {
+	width: 40%;
+	float:left;
+	padding-top: 30px;
+
+	        }
+.otros1 {
+	width: 60%;
+
+        }
+
+#tabla3 img {
+	filter: grayscale(100%);
+            }
+
+#tabla4 {
+ 	text-align:  left;
+        }
+.tipomusica {
+	margin: 1% 0 0 0;
+	text-align:center;
+        }
+
+.tipomusica  img{
+	width:100%;
+	height:100%;
+	padding:1%;
+           }
+
+
+ #galeria p{
+	margin: 1% 0 0 0;
+          } 
+
+.tipomusica div {
+	text-align:center;
+	padding:1%;
+	width:30%;
+	height:30%;
+	display:inline-block;
+            }
+
+#galeria {
+	margin:1% 10% 0 10%;
+	     }
